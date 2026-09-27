@@ -3,7 +3,12 @@
   "base_url": "https://etatisti.com/",
   "email": "contact@etatisti.com",
   "legal_name": "Christian Kirchhübel",
-  "legal_address": null,
+  "legal_address": [
+    "c/o Rolf Kirch",
+    "Auf dem Kronberg 16",
+    "35582 Wetzlar",
+    "Deutschland"
+  ],
   "links": {
     "hyperfollow": "https://hyperfollow.com/Etatisti",
     "spotify": "https://open.spotify.com/artist/5qZIDKEbkF8ExxLWV5jZgJ",
@@ -357,5 +362,6 @@
       "Längst fram: tre avatarer under en norrskenshimmel – en David i marmor för iskallt förnuft, en cyborg i krom för maskinen mellan oss, en krönt Kleopatra för begär och makt. De sjunger om entropi, energi och en och annan minister, och de låtsas aldrig att fiktion är fakta.",
       "Om en låt får dig att skratta, kolla fotnoterna: det är förmodligen sant. Fakta, inte fiktion. Tiden är knapp – få den att räkna."
     ]
-  }
+  },
+  "_legal_address_note": "Owner override 2026-09-27: address given as 'close enough', exactness and c/o consent not verified"
 }

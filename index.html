@@ -4,32 +4,75 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Etatisti</title>
-<meta name="description" content="Etatisti – music. Listen on all platforms.">
-<style>
-:root{--bg:#07090f;--fg:#e8ecf2;--muted:#8a94a6;--a1:#3ddc97;--a2:#7b5cff}
-*{box-sizing:border-box}
-body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;overflow-x:hidden}
-.aurora{position:fixed;inset:-20% -10% auto -10%;height:70vh;background:radial-gradient(ellipse at 30% 60%,rgba(61,220,151,.28),transparent 60%),radial-gradient(ellipse at 70% 40%,rgba(123,92,255,.25),transparent 60%);filter:blur(40px);animation:drift 18s ease-in-out infinite alternate;z-index:0}
-@keyframes drift{to{transform:translateX(6%) skewX(-6deg)}}
-@media (prefers-reduced-motion:reduce){.aurora{animation:none}}
-main{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:64px 16px}
-h1{font-family:"Trajan Pro",Cinzel,Georgia,serif;font-weight:600;font-size:clamp(3rem,12vw,7rem);letter-spacing:.18em;margin:0 0 .2em;padding-left:.18em}
-.tag{color:var(--muted);font-size:1.1rem;max-width:34ch;line-height:1.6;margin:0 0 2.5rem}
-.btn{display:inline-block;padding:14px 32px;border-radius:999px;background:linear-gradient(90deg,var(--a1),var(--a2));color:#07090f;font-weight:500;text-decoration:none;transition:transform .15s}
-.btn:hover{transform:translateY(-2px)}
-footer{position:relative;z-index:1;text-align:center;padding:24px 16px;color:var(--muted);font-size:.85rem}
-footer a{color:var(--muted)}
-</style>
+<meta name="description" content="Etatisti writes songs the way engineers write laws: facts first, then the beat. Human lyrics, machine sound, no fiction.">
+<link rel="canonical" href="https://etatisti.com/"><link rel="alternate" hreflang="en" href="https://etatisti.com/"><link rel="alternate" hreflang="de" href="https://etatisti.com/de/"><link rel="alternate" hreflang="it" href="https://etatisti.com/it/"><link rel="alternate" hreflang="sv" href="https://etatisti.com/sv/"><link rel="alternate" hreflang="x-default" href="https://etatisti.com/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Etatisti">
+<meta property="og:title" content="Etatisti"><meta property="og:description" content="Etatisti writes songs the way engineers write laws: facts first, then the beat. Human lyrics, machine sound, no fiction.">
+<meta property="og:url" content="https://etatisti.com/"><meta property="og:image" content="https://etatisti.com/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07090f">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MusicGroup", "name": "Etatisti", "url": "https://etatisti.com/", "description": "Etatisti writes songs the way engineers write laws: facts first, then the beat. Human lyrics, machine sound, no fiction.", "image": "https://etatisti.com/img/og.jpg", "sameAs": ["https://open.spotify.com/artist/5qZIDKEbkF8ExxLWV5jZgJ", "https://music.apple.com/us/artist/etatisti/6775722322", "https://www.youtube.com/@Etatisti", "https://www.instagram.com/etat1st1/", "https://hyperfollow.com/Etatisti"], "album": [{"@type": "MusicAlbum", "name": "BESTIARIUM BOREALIS (Svenska Edition)", "numTracks": 8, "datePublished": "2026-09-02", "image": "https://etatisti.com/img/bestiarium-borealis-svenska-edition-feat-hm.webp", "url": "https://music.apple.com/us/album/bestiarium-borealis-svenska-edition-feat-hm/6808032339"}, {"@type": "MusicAlbum", "name": "BESTIARIUM BOREALIS", "numTracks": 8, "datePublished": "2026-09-02", "image": "https://etatisti.com/img/bestiarium-borealis-feat-hm.webp", "url": "https://music.apple.com/us/album/bestiarium-borealis-feat-hm/6807716981"}, {"@type": "MusicAlbum", "name": "FACTS not FICTION", "numTracks": 10, "datePublished": "2026-08-30", "image": "https://etatisti.com/img/facts-not-fiction.webp", "url": "https://music.apple.com/us/album/facts-not-fiction/6806892543"}, {"@type": "MusicAlbum", "name": "Peace of Mind", "numTracks": 5, "datePublished": "2026-08-07", "image": "https://etatisti.com/img/peace-of-mind-ep.webp", "url": "https://music.apple.com/us/album/peace-of-mind-ep/6798980900"}, {"@type": "MusicAlbum", "name": "Time to FOCUS", "numTracks": 5, "datePublished": "2026-06-16", "image": "https://etatisti.com/img/time-to-focus-ep.webp", "url": "https://music.apple.com/us/album/time-to-focus-ep/6781547259"}, {"@type": "MusicAlbum", "name": "Etatisti No. I", "numTracks": 4, "datePublished": "2026-06-05", "image": "https://etatisti.com/img/etatisti-no-i-ep.webp", "url": "https://music.apple.com/us/album/etatisti-no-i-ep/6776038251"}, {"@type": "MusicAlbum", "name": "Etatisti energetic edition", "numTracks": 2, "datePublished": "2026-06-03", "image": "https://etatisti.com/img/etatisti-energetic-edition-feat-vince-ebert-single.webp", "url": "https://music.apple.com/us/album/etatisti-energetic-edition-feat-vince-ebert-single/6776220202"}]}</script>
 </head>
 <body>
 <div class="aurora" aria-hidden="true"></div>
+<div class="wrap">
+<nav aria-label="Language"><a href="" hreflang="en" lang="en" aria-current="page">EN</a><a href="de/" hreflang="de" lang="de">DE</a><a href="it/" hreflang="it" lang="it">IT</a><a href="sv/" hreflang="sv" lang="sv">SV</a></nav>
+<header class="hero">
+<h1 class="logo">ETATISTI</h1>
+<p class="tag">Brainpunk — texts to think about, music to enjoy.</p>
+<a class="btn" href="https://hyperfollow.com/Etatisti" rel="noopener">Listen now</a>
+<div class="social" aria-label="Follow"><a href="https://open.spotify.com/artist/5qZIDKEbkF8ExxLWV5jZgJ" rel="noopener">Spotify</a><a href="https://music.apple.com/us/artist/etatisti/6775722322" rel="noopener">Apple Music</a><a href="https://www.youtube.com/@Etatisti" rel="noopener">YouTube</a><a href="https://www.instagram.com/etat1st1/" rel="noopener">Instagram</a></div>
+</header>
 <main>
-  <h1>ETATISTI</h1>
-  <p class="tag">Songs about politics, energy, the eye – and the limits we keep pushing.</p>
-  <a class="btn" href="https://hyperfollow.com/Etatisti">Listen now</a>
+<section id="about" class="about"><h2>About</h2>
+<p>Etatisti is brainpunk — texts to think about, music to enjoy. By accident you might understand or learn something — and where a song is a bad example, it teaches how not to do things. Warning label: may contain portions of sarcasm. Usually more than portions.</p><p>The songs carry real cargo: the four laws of thermodynamics, Kirchhoff&#x27;s circuit rules, the energy return on a barrel of oil, the arithmetic behind political promises. Every lyric is written and fact-checked by a human who runs real machines and real balance sheets by day and spends the night wondering why politics keeps voting against physics. The sound is rendered with AI tools and honestly labeled as such — the machine is the instrument, never the author.</p><p>Stylistically, Etatisti refuses to stay in one lane. Big beat next to ballad, industrial stomp next to Italian sunshine pop, electro-swing next to a whispered outro — whatever the message needs, the spectrum delivers. Albums arrive in several languages — English, German, Italian, Swedish — because facts do not stop at borders, and neither should the jokes.</p><p>Fronting it all: three avatars under an aurora sky — a marble David for stone-cold reason, a chrome cyborg for the machine between us, a crowned Cleopatra for desire and power. They sing about entropy, energy and the occasional minister, and they never pretend fiction is fact.</p><p>If a song makes you laugh, check the footnotes: it is probably true. Facts, not fiction. Time is of the essence — make it count.</p>
+</section>
+<section class="topic" id="physics-energy"><h2><a href="physics-energy/">Physics &amp; Energy</a></h2>
+<p class="muted">Songs about the laws of thermodynamics, Kirchhoff, Carnot, EROEI and energy &amp; civilization. Album FACTS not FICTION in English, German and Italian. <a class="more" href="physics-energy/">Explore →</a></p>
+<div class="grid">
+<article class="rel"><img src="img/fakten-keine-fiktion.webp" alt="Fakten keine Fiktion (Deutsche Edition) – cover" width="600" height="600" loading="lazy">
+<div class="b"><span class="soon">Coming soon</span><h3>Fakten keine Fiktion (Deutsche Edition)</h3><span class="m">Album · 11 tracks</span><div class="l"></div></div></article>
+<article class="rel"><img src="img/fatti-non-finzioni.webp" alt="Fatti, non finzioni (Edizione italiana) – cover" width="600" height="600" loading="lazy">
+<div class="b"><span class="soon">Coming soon</span><h3>Fatti, non finzioni (Edizione italiana)</h3><span class="m">Album · 11 tracks</span><div class="l"></div></div></article>
+<article class="rel"><img src="img/facts-not-fiction.webp" alt="FACTS not FICTION – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>FACTS not FICTION</h3><span class="m">Album · 10 tracks · 2026-08-30</span><div class="l"><a href="https://music.apple.com/us/album/facts-not-fiction/6806892543" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+<article class="rel"><img src="img/etatisti-energetic-edition-feat-vince-ebert-single.webp" alt="Etatisti energetic edition – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>Etatisti energetic edition</h3><span class="m">Single · 2 tracks · feat. Vince Ebert · 2026-06-03</span><div class="l"><a href="https://music.apple.com/us/album/etatisti-energetic-edition-feat-vince-ebert-single/6776220202" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+</div></section>
+<section class="topic" id="politics-satire"><h2><a href="politics-satire/">Politics &amp; Satire</a></h2>
+<p class="muted">German-language satire punk about the coalition agreement, Bärbel Bas, Lars Klingbeil and the ECB: Etatisti No. I – four songs that do the math behind political promises. <a class="more" href="politics-satire/">Explore →</a></p>
+<div class="grid">
+<article class="rel"><img src="img/etatisti-no-i-ep.webp" alt="Etatisti No. I – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>Etatisti No. I</h3><span class="m">EP · 4 tracks · 2026-06-05</span><div class="l"><a href="https://music.apple.com/us/album/etatisti-no-i-ep/6776038251" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+</div></section>
+<section class="topic" id="eyes-vision"><h2><a href="eyes-vision/">Eyes &amp; Vision</a></h2>
+<p class="muted">Time to FOCUS: punk songs about Ortho-K, scleral and RGP contact lenses, myopia and dry eye – for eye-care professionals, lens wearers and parents of short-sighted kids. <a class="more" href="eyes-vision/">Explore →</a></p>
+<div class="grid">
+<article class="rel"><img src="img/time-to-focus-ep.webp" alt="Time to FOCUS – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>Time to FOCUS</h3><span class="m">EP · 5 tracks · 2026-06-16</span><div class="l"><a href="https://music.apple.com/us/album/time-to-focus-ep/6781547259" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+</div></section>
+<section class="topic" id="mind-balance"><h2><a href="mind-balance/">Mind &amp; Balance</a></h2>
+<p class="muted">Peace of Mind: five singer-songwriter songs about limits, equilibrium, resetting the mindset and a quiet mind – for reflective hours and people who push their limits. <a class="more" href="mind-balance/">Explore →</a></p>
+<div class="grid">
+<article class="rel"><img src="img/peace-of-mind-ep.webp" alt="Peace of Mind – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>Peace of Mind</h3><span class="m">EP · 5 tracks · 2026-08-07</span><div class="l"><a href="https://music.apple.com/us/album/peace-of-mind-ep/6798980900" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+</div></section>
+<section class="topic" id="nordic-wildlife"><h2><a href="nordic-wildlife/">Nordic Wildlife</a></h2>
+<p class="muted">BESTIARIUM BOREALIS: eight storytelling songs about the wildlife of the north – wolf pack, elk, bear, lynx, fox and hare – in German and in a Swedish edition. <a class="more" href="nordic-wildlife/">Explore →</a></p>
+<div class="grid">
+<article class="rel"><img src="img/bestiarium-borealis-svenska-edition-feat-hm.webp" alt="BESTIARIUM BOREALIS (Svenska Edition) – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>BESTIARIUM BOREALIS (Svenska Edition)</h3><span class="m">Album · 8 tracks · feat. HM · 2026-09-02</span><div class="l"><a href="https://music.apple.com/us/album/bestiarium-borealis-svenska-edition-feat-hm/6808032339" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+<article class="rel"><img src="img/bestiarium-borealis-feat-hm.webp" alt="BESTIARIUM BOREALIS – cover" width="600" height="600" loading="lazy">
+<div class="b"><h3>BESTIARIUM BOREALIS</h3><span class="m">Album · 8 tracks · feat. HM · 2026-09-02</span><div class="l"><a href="https://music.apple.com/us/album/bestiarium-borealis-feat-hm/6807716981" rel="noopener">Apple Music</a><a href="https://hyperfollow.com/Etatisti" rel="noopener">All platforms</a></div></div></article>
+</div></section>
 </main>
+</div>
 <footer>
-  © 2026 Etatisti · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:huebble@gmx.de">Contact</a>
+© 2026 Etatisti · <a href="impressum.html">Legal notice</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:contact@etatisti.com">Contact</a><br>
+<span><a href="" hreflang="en" lang="en">EN</a> · <a href="de/" hreflang="de" lang="de">DE</a> · <a href="it/" hreflang="it" lang="it">IT</a> · <a href="sv/" hreflang="sv" lang="sv">SV</a></span>
 </footer>
 </body>
 </html>
