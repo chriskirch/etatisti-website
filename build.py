@@ -25,25 +25,25 @@ e = html.escape
 
 LANGS = {"en": "", "de": "de/", "it": "it/", "sv": "sv/"}
 T = {
- "en": {"madefor": "Made for", "tracklist": "Tracklist", "explore": "Explore", "about": "About", "tag": "Songs about politics, energy, the eye – and the limits we keep pushing.",
+ "en": {"trio": "David · Cyborg · Cleopatra – the three Etatisti avatars", "madefor": "Made for", "tracklist": "Tracklist", "explore": "Explore", "about": "About", "tag": "Songs about politics, energy, the eye – and the limits we keep pushing.",
         "listen": "Listen now", "disco": "Discography", "soon": "Coming soon", "tracks": "tracks",
         "follow": "Follow", "legal": "Legal notice", "privacy": "Privacy", "contact": "Contact",
         "apple": "Apple Music", "all": "All platforms",
         "types": {"album": "Album", "ep": "EP", "single": "Single"},
         "desc": "Etatisti – songs about politics, energy, the eye and the limits we keep pushing. Listen on Spotify, Apple Music, YouTube and all platforms."},
- "de": {"madefor": "Gemacht für", "tracklist": "Titelliste", "explore": "Mehr dazu", "about": "Über Etatisti", "tag": "Songs über Politik, Energie, das Auge – und die Grenzen, die wir immer weiter verschieben.",
+ "de": {"trio": "David · Cyborg · Kleopatra – die drei Etatisti-Avatare", "madefor": "Gemacht für", "tracklist": "Titelliste", "explore": "Mehr dazu", "about": "Über Etatisti", "tag": "Songs über Politik, Energie, das Auge – und die Grenzen, die wir immer weiter verschieben.",
         "listen": "Jetzt hören", "disco": "Diskografie", "soon": "Demnächst", "tracks": "Titel",
         "follow": "Folgen", "legal": "Impressum", "privacy": "Datenschutz", "contact": "Kontakt",
         "apple": "Apple Music", "all": "Alle Plattformen",
         "types": {"album": "Album", "ep": "EP", "single": "Single"},
         "desc": "Etatisti – Songs über Politik, Energie, das Auge und die Grenzen, die wir verschieben. Auf Spotify, Apple Music, YouTube und allen Plattformen."},
- "it": {"madefor": "Pensato per", "tracklist": "Tracce", "explore": "Scopri", "about": "Chi è Etatisti", "tag": "Canzoni sulla politica, l’energia, l’occhio – e i limiti che continuiamo a spostare.",
+ "it": {"trio": "David · Cyborg · Cleopatra – i tre avatar di Etatisti", "madefor": "Pensato per", "tracklist": "Tracce", "explore": "Scopri", "about": "Chi è Etatisti", "tag": "Canzoni sulla politica, l’energia, l’occhio – e i limiti che continuiamo a spostare.",
         "listen": "Ascolta ora", "disco": "Discografia", "soon": "In arrivo", "tracks": "brani",
         "follow": "Segui", "legal": "Note legali", "privacy": "Privacy", "contact": "Contatto",
         "apple": "Apple Music", "all": "Tutte le piattaforme",
         "types": {"album": "Album", "ep": "EP", "single": "Singolo"},
         "desc": "Etatisti – canzoni sulla politica, l’energia, l’occhio e i limiti che spostiamo. Su Spotify, Apple Music, YouTube e tutte le piattaforme."},
- "sv": {"madefor": "Gjord för", "tracklist": "Låtlista", "explore": "Utforska", "about": "Om Etatisti", "tag": "Låtar om politik, energi, ögat – och gränserna vi hela tiden flyttar.",
+ "sv": {"trio": "David · Cyborg · Kleopatra – Etatistis tre avatarer", "madefor": "Gjord för", "tracklist": "Låtlista", "explore": "Utforska", "about": "Om Etatisti", "tag": "Låtar om politik, energi, ögat – och gränserna vi hela tiden flyttar.",
         "listen": "Lyssna nu", "disco": "Diskografi", "soon": "Kommer snart", "tracks": "låtar",
         "follow": "Följ", "legal": "Juridisk information", "privacy": "Integritet", "contact": "Kontakt",
         "apple": "Apple Music", "all": "Alla plattformar",
@@ -84,6 +84,9 @@ footer{position:relative;z-index:1;text-align:center;padding:56px 16px 28px;colo
 footer a{color:var(--muted)}
 .doc{max-width:720px}.doc h1{font-size:1.8rem;margin:1em 0 .2em}.doc h2{font-size:1.1rem;margin:2em 0 .3em;letter-spacing:0}
 .home{font-family:"Trajan Pro",Cinzel,Georgia,serif;letter-spacing:.18em;text-decoration:none;color:var(--fg)}
+.bio{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:32px;align-items:start}
+.trio{margin:0}.trio video{width:100%;height:auto;border-radius:14px;display:block;background:#111}.trio figcaption{color:var(--muted);font-size:.8rem;margin-top:8px;text-align:center}
+@media (max-width:720px){.bio{grid-template-columns:1fr}.trio{max-width:420px;margin:0 auto}}
 .about{max-width:68ch}.about p{color:#c9d0dc;margin:0 0 1em}
 .topic h2 a{color:var(--fg);text-decoration:none}.topic h2 a:hover{color:var(--a1)}.topic .more{font-size:.9rem}
 .aud{columns:2 260px;padding-left:1.2em;color:#c9d0dc}.album{display:grid;grid-template-columns:minmax(0,280px) 1fr;gap:24px;margin:28px 0;align-items:start}
@@ -180,9 +183,13 @@ def home(lang):
 <div class="social" aria-label="{t['follow']}">{social}</div>
 </header>
 <main>
-<section id="about" class="about"><h2>{t['about']}</h2>
-{''.join(f'<p>{e(x)}</p>' for x in S['bio'][lang])}
+<section id="about"><h2>{t['about']}</h2>
+<div class="bio">
+<figure class="trio"><video autoplay muted loop playsinline preload="metadata" poster="{prefix}img/trio-poster.webp" width="600" height="600" aria-label="{e(t['trio'])}"><source src="{prefix}img/trio.mp4" type="video/mp4"></video><figcaption>{e(t['trio'])}</figcaption></figure>
+<div class="about">{''.join(f'<p>{e(x)}</p>' for x in S['bio'][lang])}</div>
+</div>
 </section>
+<script>if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.querySelectorAll('video').forEach(v=>{{v.removeAttribute('autoplay');v.pause()}})</script>
 {topic_sections(lang, prefix)}
 </main>
 </div>

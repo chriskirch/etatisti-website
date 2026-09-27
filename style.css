@@ -29,6 +29,9 @@ footer{position:relative;z-index:1;text-align:center;padding:56px 16px 28px;colo
 footer a{color:var(--muted)}
 .doc{max-width:720px}.doc h1{font-size:1.8rem;margin:1em 0 .2em}.doc h2{font-size:1.1rem;margin:2em 0 .3em;letter-spacing:0}
 .home{font-family:"Trajan Pro",Cinzel,Georgia,serif;letter-spacing:.18em;text-decoration:none;color:var(--fg)}
+.bio{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:32px;align-items:start}
+.trio{margin:0}.trio video{width:100%;height:auto;border-radius:14px;display:block;background:#111}.trio figcaption{color:var(--muted);font-size:.8rem;margin-top:8px;text-align:center}
+@media (max-width:720px){.bio{grid-template-columns:1fr}.trio{max-width:420px;margin:0 auto}}
 .about{max-width:68ch}.about p{color:#c9d0dc;margin:0 0 1em}
 .topic h2 a{color:var(--fg);text-decoration:none}.topic h2 a:hover{color:var(--a1)}.topic .more{font-size:.9rem}
 .aud{columns:2 260px;padding-left:1.2em;color:#c9d0dc}.album{display:grid;grid-template-columns:minmax(0,280px) 1fr;gap:24px;margin:28px 0;align-items:start}
