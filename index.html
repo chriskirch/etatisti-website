@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Etatisti</title>
+<meta name="description" content="Etatisti – music. Listen on all platforms.">
+<style>
+:root{--bg:#07090f;--fg:#e8ecf2;--muted:#8a94a6;--a1:#3ddc97;--a2:#7b5cff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;overflow-x:hidden}
+.aurora{position:fixed;inset:-20% -10% auto -10%;height:70vh;background:radial-gradient(ellipse at 30% 60%,rgba(61,220,151,.28),transparent 60%),radial-gradient(ellipse at 70% 40%,rgba(123,92,255,.25),transparent 60%);filter:blur(40px);animation:drift 18s ease-in-out infinite alternate;z-index:0}
+@keyframes drift{to{transform:translateX(6%) skewX(-6deg)}}
+@media (prefers-reduced-motion:reduce){.aurora{animation:none}}
+main{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:64px 16px}
+h1{font-family:"Trajan Pro",Cinzel,Georgia,serif;font-weight:600;font-size:clamp(3rem,12vw,7rem);letter-spacing:.18em;margin:0 0 .2em;padding-left:.18em}
+.tag{color:var(--muted);font-size:1.1rem;max-width:34ch;line-height:1.6;margin:0 0 2.5rem}
+.btn{display:inline-block;padding:14px 32px;border-radius:999px;background:linear-gradient(90deg,var(--a1),var(--a2));color:#07090f;font-weight:500;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+footer{position:relative;z-index:1;text-align:center;padding:24px 16px;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="aurora" aria-hidden="true"></div>
+<main>
+  <h1>ETATISTI</h1>
+  <p class="tag">Songs about politics, energy, the eye – and the limits we keep pushing.</p>
+  <a class="btn" href="https://hyperfollow.com/Etatisti">Listen now</a>
+</main>
+<footer>
+  © 2026 Etatisti · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:christian.kirchhuebel@googlemail.com">Contact</a>
+</footer>
+</body>
+</html>
