@@ -1,0 +1,361 @@
+{
+  "_provenance": "releases: Apple iTunes Search API + DistroKid screenshots 2026-09-27 (SCAN); links: HyperFollow page + autoloop docs (SCAN)",
+  "base_url": "https://etatisti.com/",
+  "email": "huebble@gmx.de",
+  "legal_name": "Christian Kirchhübel",
+  "legal_address": null,
+  "links": {
+    "hyperfollow": "https://hyperfollow.com/Etatisti",
+    "spotify": "https://open.spotify.com/artist/5qZIDKEbkF8ExxLWV5jZgJ",
+    "apple": "https://music.apple.com/us/artist/etatisti/6775722322",
+    "youtube": "https://www.youtube.com/@Etatisti",
+    "instagram": "https://www.instagram.com/etat1st1/"
+  },
+  "releases": [
+    {
+      "title": "Fakten keine Fiktion",
+      "edition": "Deutsche Edition",
+      "type": "album",
+      "tracks": 11,
+      "date": null,
+      "img": "fakten-keine-fiktion",
+      "topic": "science",
+      "song_lang": [
+        "de"
+      ]
+    },
+    {
+      "title": "Fatti, non finzioni",
+      "edition": "Edizione italiana",
+      "type": "album",
+      "tracks": 11,
+      "date": null,
+      "img": "fatti-non-finzioni",
+      "topic": "science",
+      "song_lang": [
+        "it"
+      ]
+    },
+    {
+      "title": "BESTIARIUM BOREALIS",
+      "edition": "Svenska Edition",
+      "feat": "HM",
+      "type": "album",
+      "tracks": 8,
+      "date": "2026-09-02",
+      "img": "bestiarium-borealis-svenska-edition-feat-hm",
+      "apple": "https://music.apple.com/us/album/bestiarium-borealis-svenska-edition-feat-hm/6808032339",
+      "topic": "nordic",
+      "song_lang": [
+        "sv"
+      ],
+      "genre": "Folk",
+      "tracklist": [
+        [
+          "LUPUS LUPUS – FLOCKEN — Gemenskap, hunger och kulturlandskapets gräns (feat. HM)",
+          260
+        ],
+        [
+          "KUNGEN BAKOM MYREN — Älgen i höga Norden (feat. HM)",
+          211
+        ],
+        [
+          "VITT PÅ VITT — Nordens och fjällens vita fåglar (feat. HM)",
+          228
+        ],
+        [
+          "GENERALEN PÅ SPELPLATSEN — Tjädern och de uppmärksamma damerna (feat. HM)",
+          187
+        ],
+        [
+          "SPELET PÅ BÄRHEDEN — Orre på urgammal spelplats (feat. HM)",
+          231
+        ],
+        [
+          "VEM JAGAR VEM? — Ursus arctos – Mäster Nalle (feat. HM)",
+          210
+        ],
+        [
+          "SKOGENS VÅLNAD — Lynx lynx – Nordens katt (feat. HM)",
+          234
+        ],
+        [
+          "FOXTROT I SNÖN — Fjällräv och snöhare (feat. HM)",
+          197
+        ]
+      ]
+    },
+    {
+      "title": "BESTIARIUM BOREALIS",
+      "feat": "HM",
+      "type": "album",
+      "tracks": 8,
+      "date": "2026-09-02",
+      "img": "bestiarium-borealis-feat-hm",
+      "apple": "https://music.apple.com/us/album/bestiarium-borealis-feat-hm/6807716981",
+      "topic": "nordic",
+      "song_lang": [
+        "de"
+      ],
+      "genre": "German Pop",
+      "tracklist": [
+        [
+          "CANIN LUPUS LUPUS (feat. HM)",
+          309
+        ],
+        [
+          "Der König hinterm Moor (feat. HM)",
+          307
+        ],
+        [
+          "Weiß auf Weiß (feat. HM)",
+          367
+        ],
+        [
+          "Der General vom Balzrevier (feat. HM)",
+          340
+        ],
+        [
+          "Das Spiel in der Beerenheide (feat. HM)",
+          338
+        ],
+        [
+          "Foxtrott im Schnee (feat. HM)",
+          319
+        ],
+        [
+          "Das Gespenst des Waldes (feat. HM)",
+          382
+        ],
+        [
+          "Wer jagt hier wen? (feat. HM)",
+          350
+        ]
+      ]
+    },
+    {
+      "title": "FACTS not FICTION",
+      "type": "album",
+      "tracks": 10,
+      "date": "2026-08-30",
+      "img": "facts-not-fiction",
+      "apple": "https://music.apple.com/us/album/facts-not-fiction/6806892543",
+      "topic": "science",
+      "song_lang": [
+        "en"
+      ],
+      "genre": "Alternative",
+      "tracklist": [
+        [
+          "EQUILIBRIUM Zeroth Law — Nothing Moves Without a Difference",
+          232
+        ],
+        [
+          "NOTHING FROM NOTHING First Law — Show Me the Source",
+          215
+        ],
+        [
+          "ENTROPY Second Law — Everything Beautiful Requires Maintenance",
+          235
+        ],
+        [
+          "ABSOLUTE ZERO Third Law — Perfection Is a Direction",
+          191
+        ],
+        [
+          "THE WHOLE CIRCUIT - Kirchhoff — You Cannot Crop Reality",
+          193
+        ],
+        [
+          "HOTTER THAN HEAVEN Carnot — Design Inside the Line",
+          213
+        ],
+        [
+          "WHAT’S LEFT WHEN YOU GET HOME EROEI — The Energy Ladder",
+          208
+        ],
+        [
+          "THE HAND YOU’RE DEALT Geology — You Cannot Move the Mountain",
+          218
+        ],
+        [
+          "MORE THAN FIRE Energy & Civilization — Surplus Built the Mind",
+          215
+        ],
+        [
+          "SORCERER'S APPRENTICE 4.0 Designers of Prosperity or Architects of Armageddon",
+          272
+        ]
+      ]
+    },
+    {
+      "title": "Peace of Mind",
+      "type": "ep",
+      "tracks": 5,
+      "date": "2026-08-07",
+      "img": "peace-of-mind-ep",
+      "apple": "https://music.apple.com/us/album/peace-of-mind-ep/6798980900",
+      "topic": "mind",
+      "song_lang": [
+        "en"
+      ],
+      "genre": "Singer/Songwriter",
+      "tracklist": [
+        [
+          "Tickle the Limit",
+          171
+        ],
+        [
+          "Fire to Fire",
+          241
+        ],
+        [
+          "Quest to Equilibrium",
+          252
+        ],
+        [
+          "Reset the Mindset (Radio Edit)",
+          236
+        ],
+        [
+          "A quite Mind (Radio Edit)",
+          219
+        ]
+      ]
+    },
+    {
+      "title": "Time to FOCUS",
+      "type": "ep",
+      "tracks": 5,
+      "date": "2026-06-16",
+      "img": "time-to-focus-ep",
+      "apple": "https://music.apple.com/us/album/time-to-focus-ep/6781547259",
+      "topic": "eyes",
+      "song_lang": [
+        "en"
+      ],
+      "genre": "Punk",
+      "tracklist": [
+        [
+          "Ortho-K going wild",
+          235
+        ],
+        [
+          "SCLERALS gateway to FOCUS",
+          283
+        ],
+        [
+          "RGP - The lens to be",
+          274
+        ],
+        [
+          "MYOPIA Toaster",
+          310
+        ],
+        [
+          "D.E.D the curse of digital misuse",
+          314
+        ]
+      ]
+    },
+    {
+      "title": "Etatisti No. I",
+      "type": "ep",
+      "tracks": 4,
+      "date": "2026-06-05",
+      "img": "etatisti-no-i-ep",
+      "apple": "https://music.apple.com/us/album/etatisti-no-i-ep/6776038251",
+      "topic": "politics",
+      "song_lang": [
+        "de"
+      ],
+      "genre": "Punk",
+      "tracklist": [
+        [
+          "Zirkusvertrag",
+          169
+        ],
+        [
+          "Wir brauchen Bas",
+          251
+        ],
+        [
+          "Klingbeils Kernschmelze",
+          197
+        ],
+        [
+          "Zauberlehrling 2.0 (EZB oWEHoWEH)",
+          226
+        ]
+      ]
+    },
+    {
+      "title": "Etatisti energetic edition",
+      "feat": "Vince Ebert",
+      "type": "single",
+      "tracks": 2,
+      "date": "2026-06-03",
+      "img": "etatisti-energetic-edition-feat-vince-ebert-single",
+      "apple": "https://music.apple.com/us/album/etatisti-energetic-edition-feat-vince-ebert-single/6776220202",
+      "topic": "science",
+      "song_lang": [
+        "de",
+        "en"
+      ],
+      "genre": "Punk",
+      "tracklist": [
+        [
+          "ENERGY VS. HYSTERY (feat. Vince Ebert)",
+          307
+        ],
+        [
+          "Energy vs hystery english edition (feat. Vince Ebert)",
+          297
+        ]
+      ]
+    }
+  ],
+  "_bio_source": "Drive Etatisti/_BUSINESS/ARTIST-BIO.md (EN original, filed 2026-09-27); DE/IT/SV translated from it",
+  "tagline": {
+    "en": "Brainpunk — texts to think about, music to enjoy.",
+    "de": "Brainpunk – Texte zum Nachdenken, Musik zum Genießen.",
+    "it": "Brainpunk – testi su cui riflettere, musica da godersi.",
+    "sv": "Brainpunk – texter att tänka på, musik att njuta av."
+  },
+  "description": {
+    "en": "Etatisti writes songs the way engineers write laws: facts first, then the beat. Human lyrics, machine sound, no fiction.",
+    "de": "Etatisti schreibt Songs, wie Ingenieure Gesetze schreiben: erst die Fakten, dann der Beat. Menschliche Texte, Maschinenklang, keine Fiktion.",
+    "it": "Etatisti scrive canzoni come gli ingegneri scrivono le leggi: prima i fatti, poi il ritmo. Testi umani, suono di macchina, nessuna finzione.",
+    "sv": "Etatisti skriver låtar som ingenjörer skriver lagar: fakta först, sedan beatet. Mänskliga texter, maskinljud, ingen fiktion."
+  },
+  "bio": {
+    "en": [
+      "Etatisti is brainpunk — texts to think about, music to enjoy. By accident you might understand or learn something — and where a song is a bad example, it teaches how not to do things. Warning label: may contain portions of sarcasm. Usually more than portions.",
+      "The songs carry real cargo: the four laws of thermodynamics, Kirchhoff's circuit rules, the energy return on a barrel of oil, the arithmetic behind political promises. Every lyric is written and fact-checked by a human who runs real machines and real balance sheets by day and spends the night wondering why politics keeps voting against physics. The sound is rendered with AI tools and honestly labeled as such — the machine is the instrument, never the author.",
+      "Stylistically, Etatisti refuses to stay in one lane. Big beat next to ballad, industrial stomp next to Italian sunshine pop, electro-swing next to a whispered outro — whatever the message needs, the spectrum delivers. Albums arrive in several languages — English, German, Italian, Swedish — because facts do not stop at borders, and neither should the jokes.",
+      "Fronting it all: three avatars under an aurora sky — a marble David for stone-cold reason, a chrome cyborg for the machine between us, a crowned Cleopatra for desire and power. They sing about entropy, energy and the occasional minister, and they never pretend fiction is fact.",
+      "If a song makes you laugh, check the footnotes: it is probably true. Facts, not fiction. Time is of the essence — make it count."
+    ],
+    "de": [
+      "Etatisti ist Brainpunk – Texte zum Nachdenken, Musik zum Genießen. Ganz nebenbei verstehst oder lernst du vielleicht etwas – und wo ein Song ein schlechtes Beispiel ist, zeigt er, wie man es nicht macht. Warnhinweis: Kann Spuren von Sarkasmus enthalten. Meist mehr als Spuren.",
+      "Die Songs haben echte Fracht an Bord: die vier Hauptsätze der Thermodynamik, die Kirchhoffschen Regeln, den Energieertrag eines Barrels Öl, die Arithmetik hinter politischen Versprechen. Jeder Text wird von einem Menschen geschrieben und auf Fakten geprüft, der tagsüber echte Maschinen und echte Bilanzen verantwortet und nachts darüber rätselt, warum die Politik immer wieder gegen die Physik stimmt. Der Sound entsteht mit KI-Werkzeugen und ist ehrlich als solcher gekennzeichnet – die Maschine ist das Instrument, niemals der Autor.",
+      "Stilistisch weigert sich Etatisti, auf einer Spur zu bleiben. Big Beat neben Ballade, Industrial-Stampfen neben italienischem Sonnenschein-Pop, Electro-Swing neben einem geflüsterten Outro – was die Botschaft braucht, liefert das Spektrum. Alben erscheinen in mehreren Sprachen – Englisch, Deutsch, Italienisch, Schwedisch –, denn Fakten machen nicht an Grenzen halt, und die Witze sollten es auch nicht.",
+      "An der Front: drei Avatare unter einem Polarlichthimmel – ein marmorner David für eiskalte Vernunft, ein Chrom-Cyborg für die Maschine zwischen uns, eine gekrönte Kleopatra für Begehren und Macht. Sie singen über Entropie, Energie und gelegentlich einen Minister, und sie tun nie so, als wäre Fiktion Fakt.",
+      "Wenn ein Song dich zum Lachen bringt, lies die Fußnoten: Wahrscheinlich ist es wahr. Fakten, keine Fiktion. Die Zeit drängt – nutze sie."
+    ],
+    "it": [
+      "Etatisti è brainpunk – testi su cui riflettere, musica da godersi. Per caso potresti capire o imparare qualcosa – e dove una canzone è un cattivo esempio, insegna come non fare le cose. Avvertenza: può contenere tracce di sarcasmo. Di solito più che tracce.",
+      "Le canzoni trasportano un carico reale: i quattro principi della termodinamica, le leggi di Kirchhoff, il ritorno energetico di un barile di petrolio, l'aritmetica dietro le promesse politiche. Ogni testo è scritto e verificato da un essere umano che di giorno manda avanti macchine vere e bilanci veri e di notte si chiede perché la politica continui a votare contro la fisica. Il suono è realizzato con strumenti di IA e dichiarato onestamente come tale – la macchina è lo strumento, mai l'autore.",
+      "Dal punto di vista stilistico, Etatisti si rifiuta di restare in una sola corsia. Big beat accanto alla ballata, ritmi industrial accanto al pop solare italiano, electro-swing accanto a un outro sussurrato – qualunque cosa serva al messaggio, lo spettro la offre. Gli album escono in più lingue – inglese, tedesco, italiano, svedese – perché i fatti non si fermano ai confini, e nemmeno le battute dovrebbero farlo.",
+      "In prima fila: tre avatar sotto un cielo d'aurora – un David di marmo per la ragione più fredda, un cyborg cromato per la macchina tra di noi, una Cleopatra incoronata per il desiderio e il potere. Cantano di entropia, di energia e, di tanto in tanto, di qualche ministro, e non fingono mai che la finzione sia un fatto.",
+      "Se una canzone ti fa ridere, controlla le note: probabilmente è vero. Fatti, non finzioni. Il tempo stringe – fallo contare."
+    ],
+    "sv": [
+      "Etatisti är brainpunk – texter att tänka på, musik att njuta av. Av en slump kanske du förstår eller lär dig något – och där en låt är ett dåligt exempel visar den hur man inte gör. Varningstext: kan innehålla spår av sarkasm. Oftast mer än spår.",
+      "Låtarna bär verklig last: termodynamikens fyra huvudsatser, Kirchhoffs lagar, energiåtbetalningen från ett fat olja, aritmetiken bakom politiska löften. Varje text är skriven och faktagranskad av en människa som på dagarna driver riktiga maskiner och riktiga balansräkningar och på nätterna undrar varför politiken fortsätter att rösta mot fysiken. Ljudet skapas med AI-verktyg och är ärligt märkt som sådant – maskinen är instrumentet, aldrig upphovspersonen.",
+      "Stilmässigt vägrar Etatisti att hålla sig i ett enda körfält. Big beat bredvid ballad, industriellt stampande bredvid italiensk solskenspop, electro-swing bredvid ett viskat outro – vad budskapet än behöver, levererar spektrumet. Albumen kommer på flera språk – engelska, tyska, italienska, svenska – för fakta stannar inte vid gränser, och det borde inte skämten heller.",
+      "Längst fram: tre avatarer under en norrskenshimmel – en David i marmor för iskallt förnuft, en cyborg i krom för maskinen mellan oss, en krönt Kleopatra för begär och makt. De sjunger om entropi, energi och en och annan minister, och de låtsas aldrig att fiktion är fakta.",
+      "Om en låt får dig att skratta, kolla fotnoterna: det är förmodligen sant. Fakta, inte fiktion. Tiden är knapp – få den att räkna."
+    ]
+  }
+}
