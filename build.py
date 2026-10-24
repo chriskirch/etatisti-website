@@ -51,7 +51,7 @@ T = {
         "desc": "Etatisti – låtar om politik, energi, ögat och gränserna vi flyttar. Lyssna på Spotify, Apple Music, YouTube och alla plattformar."},
 }
 L = S["links"]
-SOCIAL = [("Spotify", L["spotify"]), ("Apple Music", L["apple"]), ("YouTube", L["youtube"]), ("Instagram", L["instagram"])]
+SOCIAL = [("Spotify", L["spotify"]), ("Apple Music", L["apple"]), ("YouTube Music", L["youtube_music"]), ("Instagram", L["instagram"])]
 
 CSS = """:root{--bg:#07090f;--card:#0f1320;--fg:#e8ecf2;--muted:#8a94a6;--line:#1c2233;--a1:#3ddc97;--a2:#7b5cff}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
@@ -162,7 +162,7 @@ def release_card(r, lang, prefix):
 
 def jsonld_artist():
     return {"@context": "https://schema.org", "@type": "MusicGroup", "name": "Etatisti", "url": BASE, "description": S["description"]["en"],
-            "image": BASE + "img/og.jpg", "sameAs": [u for _, u in SOCIAL] + [L["hyperfollow"]],
+            "image": BASE + "img/og.jpg", "sameAs": [u for _, u in SOCIAL] + [L["youtube"], L["hyperfollow"]],
             "album": [{"@type": "MusicAlbum", "name": r["title"] + (f" ({r['edition']})" if r.get("edition") else ""),
                        "numTracks": r["tracks"], "datePublished": r["date"], "image": f"{BASE}img/{r['img']}.webp",
                        **({"url": r["apple"]} if r.get("apple") else {})}

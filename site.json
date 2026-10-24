@@ -1,5 +1,5 @@
 {
-  "_provenance": "releases: Apple iTunes Search API + DistroKid screenshots 2026-09-27 (SCAN); links: HyperFollow page + autoloop docs (SCAN)",
+  "_provenance": "releases: Apple iTunes Search API + DistroKid screenshots 2026-09-27 (SCAN); links: HyperFollow page + autoloop docs (SCAN); youtube_music: music.youtube.com artist page, verified 2026-10-24 (SCAN)",
   "base_url": "https://etatisti.com/",
   "email": "contact@etatisti.com",
   "legal_name": "Christian Kirchhübel",
@@ -14,6 +14,7 @@
     "spotify": "https://open.spotify.com/artist/5qZIDKEbkF8ExxLWV5jZgJ",
     "apple": "https://music.apple.com/us/artist/etatisti/6775722322",
     "youtube": "https://www.youtube.com/@Etatisti",
+    "youtube_music": "https://music.youtube.com/channel/UCrbi2JX64g7wi9Ft-yN5NrA",
     "instagram": "https://www.instagram.com/etat1st1/"
   },
   "releases": [
