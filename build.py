@@ -51,7 +51,7 @@ T = {
         "desc": "Etatisti – låtar om politik, energi, ögat och gränserna vi flyttar. Lyssna på Spotify, Apple Music, YouTube och alla plattformar."},
 }
 L = S["links"]
-SOCIAL = [("Spotify", L["spotify"]), ("Apple Music", L["apple"]), ("YouTube Music", L["youtube_music"]), ("Instagram", L["instagram"])]
+SOCIAL = [("Spotify", L["spotify"]), ("Apple Music", L["apple"]), ("YouTube Music", L["youtube_music"]), ("Amazon Music", L["amazon"]), ("Deezer", L["deezer"]), ("TIDAL", L["tidal"]), ("Instagram", L["instagram"])]
 
 CSS = """:root{--bg:#07090f;--card:#0f1320;--fg:#e8ecf2;--muted:#8a94a6;--line:#1c2233;--a1:#3ddc97;--a2:#7b5cff}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
@@ -242,7 +242,7 @@ def privacy_en():
 <h2>3. No cookies, no tracking</h2>
 <p>This website sets no cookies, uses no analytics or tracking tools, loads no external fonts and embeds no third-party players. All images and files are served from the same host.</p>
 <h2>4. Links to streaming services and social networks</h2>
-<p>Links to Spotify, Apple Music, YouTube, Instagram and HyperFollow (DistroKid) are plain links. No data is transmitted to these services until you click a link; after that, the privacy policy of the respective service applies.</p>
+<p>Links to Spotify, Apple Music, YouTube, Amazon Music, Deezer, TIDAL, Instagram and HyperFollow (DistroKid) are plain links. No data is transmitted to these services until you click a link; after that, the privacy policy of the respective service applies.</p>
 <h2>5. Contact by e-mail</h2>
 <p>If you write to us, we use your e-mail address and message only to answer you (Art. 6(1)(b) and (f) GDPR) and delete them once they are no longer needed, unless statutory retention periods apply.</p>
 <h2>6. Etatisti Autoloop (Google API use)</h2>
@@ -269,7 +269,7 @@ def privacy_de():
 <h2>3. Keine Cookies, kein Tracking</h2>
 <p>Diese Website setzt keine Cookies, verwendet keine Analyse- oder Tracking-Werkzeuge, lädt keine externen Schriftarten und bindet keine Player Dritter ein. Alle Bilder und Dateien werden vom selben Server ausgeliefert.</p>
 <h2>4. Links zu Streaming-Diensten und sozialen Netzwerken</h2>
-<p>Links zu Spotify, Apple Music, YouTube, Instagram und HyperFollow (DistroKid) sind einfache Links. Erst wenn Sie einen Link anklicken, werden Daten an den jeweiligen Dienst übertragen; ab dann gilt dessen Datenschutzerklärung.</p>
+<p>Links zu Spotify, Apple Music, YouTube, Amazon Music, Deezer, TIDAL, Instagram und HyperFollow (DistroKid) sind einfache Links. Erst wenn Sie einen Link anklicken, werden Daten an den jeweiligen Dienst übertragen; ab dann gilt dessen Datenschutzerklärung.</p>
 <h2>5. Kontakt per E-Mail</h2>
 <p>Wenn Sie uns schreiben, verwenden wir Ihre E-Mail-Adresse und Nachricht ausschließlich zur Beantwortung (Art. 6 Abs. 1 lit. b und f DSGVO) und löschen sie, sobald sie nicht mehr erforderlich sind, soweit keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
 <h2>6. Etatisti Autoloop (Nutzung von Google-APIs)</h2>
