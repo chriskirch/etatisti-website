@@ -22,6 +22,17 @@
   },
   "releases": [
     {
+      "title": "THE ART OF BECOMING",
+      "type": "album",
+      "tracks": 16,
+      "date": null,
+      "img": "the-art-of-becoming",
+      "topic": "mind",
+      "song_lang": [
+        "en"
+      ]
+    },
+    {
       "title": "Fakten keine Fiktion",
       "edition": "Deutsche Edition",
       "type": "album",
